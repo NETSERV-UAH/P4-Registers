@@ -1,0 +1,65 @@
+pkg_info {
+  arch: "v1model"
+}
+registers {
+  preamble {
+    id: 369131706
+    name: "bcast_register_port"
+    alias: "bcast_register_port"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 9
+      }
+    }
+  }
+  size: 327680
+}
+registers {
+  preamble {
+    id: 369161607
+    name: "bcast_register_time"
+    alias: "bcast_register_time"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 48
+      }
+    }
+  }
+  size: 327680
+}
+registers {
+  preamble {
+    id: 369099752
+    name: "ucast_register_port"
+    alias: "ucast_register_port"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 9
+      }
+    }
+  }
+  size: 327680
+}
+registers {
+  preamble {
+    id: 369116454
+    name: "ucast_register_time"
+    alias: "ucast_register_time"
+  }
+  type_spec {
+    bitstring {
+      bit {
+        bitwidth: 48
+      }
+    }
+  }
+  size: 327680
+}
+type_info {
+}
